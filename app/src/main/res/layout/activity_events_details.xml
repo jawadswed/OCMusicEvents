@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.orangecoastcollege.cs273.jalmashashswed.ocmusicevents.EventsDetailsActivity">
+
+    <ImageView
+        android:id="@+id/eventImageView"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_weight="2"
+        app:srcCompat="@drawable/ic_music_event"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/eventTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:layout_marginLeft="15dp"
+
+
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/eventDetailtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goBackToList"
+        android:text="Back To LIst"
+        android:textSize="30sp"/>
+</LinearLayout>
